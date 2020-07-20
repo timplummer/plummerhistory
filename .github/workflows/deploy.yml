@@ -17,11 +17,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
-      - run: PUBLIC_URL=${{ GITHUB_REF##*/ }} npm run build
+      - run: PUBLIC_URL=${{ GITHUB_REF#refs/heads/ }} npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.7
         with:
           GITHUB_TOKEN: ${{ github.token }}
           BRANCH: gh-pages
           FOLDER: build
-          TARGET_FOLDER: ${{ GITHUB_REF##*/ }}
+          TARGET_FOLDER: ${{ GITHUB_REF#refs/heads/ }}
