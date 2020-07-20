@@ -56,6 +56,12 @@ collections:
             widget: string
           - label: Link
             name: link
+            widget: relation
+            collection: page
+            valueField: title
+            searchFields: title
+          - name: url
+            label: url
             widget: string
           - label: Items
             name: items
@@ -66,6 +72,12 @@ collections:
                 widget: string
               - label: Link
                 name: link
+                widget: relation
+                collection: page
+                valueField: title
+                searchFields: title
+              - name: url
+                label: url
                 widget: string
   - name: category
     extension: json
