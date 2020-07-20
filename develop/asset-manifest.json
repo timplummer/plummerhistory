@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/develop/static/css/main.d18dee0f.chunk.css",
-    "main.js": "/develop/static/js/main.87d1d480.chunk.js",
-    "main.js.map": "/develop/static/js/main.87d1d480.chunk.js.map",
-    "runtime-main.js": "/develop/static/js/runtime-main.724f075a.js",
-    "runtime-main.js.map": "/develop/static/js/runtime-main.724f075a.js.map",
-    "static/js/2.04b6faf3.chunk.js": "/develop/static/js/2.04b6faf3.chunk.js",
-    "static/js/2.04b6faf3.chunk.js.map": "/develop/static/js/2.04b6faf3.chunk.js.map",
-    "index.html": "/develop/index.html",
-    "precache-manifest.e7243dc75d332fb4483176b83487e410.js": "/develop/precache-manifest.e7243dc75d332fb4483176b83487e410.js",
-    "service-worker.js": "/develop/service-worker.js",
-    "static/css/main.d18dee0f.chunk.css.map": "/develop/static/css/main.d18dee0f.chunk.css.map",
-    "static/js/2.04b6faf3.chunk.js.LICENSE.txt": "/develop/static/js/2.04b6faf3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/develop/static/media/logo.8dad8028.svg"
+    "main.css": "/plummerhistory/develop/static/css/main.d18dee0f.chunk.css",
+    "main.js": "/plummerhistory/develop/static/js/main.b98db852.chunk.js",
+    "main.js.map": "/plummerhistory/develop/static/js/main.b98db852.chunk.js.map",
+    "runtime-main.js": "/plummerhistory/develop/static/js/runtime-main.cf89c753.js",
+    "runtime-main.js.map": "/plummerhistory/develop/static/js/runtime-main.cf89c753.js.map",
+    "static/js/2.04b6faf3.chunk.js": "/plummerhistory/develop/static/js/2.04b6faf3.chunk.js",
+    "static/js/2.04b6faf3.chunk.js.map": "/plummerhistory/develop/static/js/2.04b6faf3.chunk.js.map",
+    "index.html": "/plummerhistory/develop/index.html",
+    "precache-manifest.ea9c70a46e0bce3ec2c7e28d6aa49103.js": "/plummerhistory/develop/precache-manifest.ea9c70a46e0bce3ec2c7e28d6aa49103.js",
+    "service-worker.js": "/plummerhistory/develop/service-worker.js",
+    "static/css/main.d18dee0f.chunk.css.map": "/plummerhistory/develop/static/css/main.d18dee0f.chunk.css.map",
+    "static/js/2.04b6faf3.chunk.js.LICENSE.txt": "/plummerhistory/develop/static/js/2.04b6faf3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/plummerhistory/develop/static/media/logo.8dad8028.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.724f075a.js",
+    "static/js/runtime-main.cf89c753.js",
     "static/js/2.04b6faf3.chunk.js",
     "static/css/main.d18dee0f.chunk.css",
-    "static/js/main.87d1d480.chunk.js"
+    "static/js/main.b98db852.chunk.js"
   ]
 }
