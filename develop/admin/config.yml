@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: timplummer/plummerhistory
+  site_domain: timplummer.github.io
 
 media_folder: public/images
 public_folder: /images
