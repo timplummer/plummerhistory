@@ -1,0 +1,95 @@
+backend:
+  name: github
+  repo: timplummer/plummerhistory
+  base_url: https://github.com
+  auth_endpoint: external/auth/github
+  branch: master
+
+media_folder: public/images
+public_folder: /images
+publish_mode: editorial_workflow
+logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+
+collections:
+  - name: site
+    extension: json
+    publish: false
+    label: Site Settings
+    label_singular: Site Settings
+    folder: content/settings
+    create: false
+    delete: false
+    preview_path: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: string
+  - name: menu
+    label: Menus
+    label_singular: Menu
+    folder: content/menus
+    extesion: json
+    publish: false
+    fields:
+      - name: name
+        label: Name
+        widget: string
+      - name: items
+        label: Items
+        widget: list
+        fields:
+          - label: Text
+            name: text
+            widget: string
+          - label: Link
+            name: link
+            widget: string
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - label: Text
+                name: text
+                widget: string
+              - label: Link
+                name: link
+                widget: string
+  - name: category
+    extension: json
+    label: Categories
+    label_singular: Category
+    folder: content/category
+    create: true
+    delete: true
+    fields:
+      - name: slug
+        label: Slug
+        widget: string
+      - name: name
+        label: Name
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+  - name: page
+    extension: json
+    label: Pages
+    label_singular: Page
+    folder: content/page
+    create: true
+    delete: true
+    preview_path: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
