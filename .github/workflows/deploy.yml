@@ -2,9 +2,7 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: Deploy
-
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +10,8 @@ jobs:
       matrix:
         node-version: [12.x]
     steps:
+      - run: echo "::set-env name=PUBLIC_URL::/${GITHUB_REPOSITORY##*/}/${GITHUB_REF#refs/heads/}"
+      - run: echo "::set-env name=TARGET_FOLDER::${GITHUB_REF#refs/heads/}"
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -19,11 +19,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
-      - run: PUBLIC_URL=${{ github.ref }} npm run build
+      - run: npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.7
         with:
           GITHUB_TOKEN: ${{ github.token }}
           BRANCH: gh-pages
           FOLDER: build
-          TARGET_FOLDER: ${{ github.ref }}
+          TARGET_FOLDER: ${{ env.TARGET_FOLDER }}
