@@ -7,33 +7,44 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
-  - name: site
+  - name: settings
     extension: json
     publish: false
     label: Site Settings
     label_singular: Site Settings
     folder: public/content/settings
-    create: false
-    delete: false
+    create: true
+    delete: true
     preview_path: "{{slug}}"
     editor:
       preview: false
     fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Description
-        name: description
-        widget: string
+      - name: settings
+        label: Settings
+        widget: list
+        fields:
+          - name: key
+            label: Key
+            widget: string
+          - name: value
+            label: Value
+          - name: description
+            label: Description
+            widget: string
   - name: menu
     label: Menus
     label_singular: Menu
     folder: public/content/menus
     extesion: json
     publish: false
+    create: true
+    delete: true
     fields:
       - name: name
         label: Name
+        widget: string
+      - name: description
+        label: description
         widget: string
       - name: items
         label: Items
