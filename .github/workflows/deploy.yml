@@ -26,4 +26,4 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           BRANCH: gh-pages
           FOLDER: build
-          TARGET_FOLDER: ${{PUBLIC_URL}}
+          TARGET_FOLDER: ${{ env.PUBLIC_URL }}
