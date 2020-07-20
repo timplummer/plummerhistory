@@ -16,7 +16,7 @@ collections:
     publish: false
     label: Site Settings
     label_singular: Site Settings
-    folder: content/settings
+    folder: public/content/settings
     create: false
     delete: false
     preview_path: "{{slug}}"
@@ -32,7 +32,7 @@ collections:
   - name: menu
     label: Menus
     label_singular: Menu
-    folder: content/menus
+    folder: public/content/menus
     extesion: json
     publish: false
     fields:
@@ -63,7 +63,7 @@ collections:
     extension: json
     label: Categories
     label_singular: Category
-    folder: content/category
+    folder: public/content/category
     create: true
     delete: true
     fields:
@@ -80,7 +80,7 @@ collections:
     extension: json
     label: Pages
     label_singular: Page
-    folder: content/page
+    folder: public/content/page
     create: true
     delete: true
     preview_path: "{{slug}}"
