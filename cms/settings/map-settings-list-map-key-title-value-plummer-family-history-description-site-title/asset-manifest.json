@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/css/main.d18dee0f.chunk.css",
+    "main.js": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/main.1ccdd1b8.chunk.js",
+    "main.js.map": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/main.1ccdd1b8.chunk.js.map",
+    "runtime-main.js": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/runtime-main.c850f610.js",
+    "runtime-main.js.map": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/runtime-main.c850f610.js.map",
+    "static/js/2.04b6faf3.chunk.js": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/2.04b6faf3.chunk.js",
+    "static/js/2.04b6faf3.chunk.js.map": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/2.04b6faf3.chunk.js.map",
+    "index.html": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/index.html",
+    "precache-manifest.93433c1f8b8accc2c5279bff2b8a7043.js": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/precache-manifest.93433c1f8b8accc2c5279bff2b8a7043.js",
+    "service-worker.js": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/service-worker.js",
+    "static/css/main.d18dee0f.chunk.css.map": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/css/main.d18dee0f.chunk.css.map",
+    "static/js/2.04b6faf3.chunk.js.LICENSE.txt": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/js/2.04b6faf3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/plummerhistory/cms/settings/map-settings-list-map-key-title-value-plummer-family-history-description-site-title/static/media/logo.8dad8028.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c850f610.js",
+    "static/js/2.04b6faf3.chunk.js",
+    "static/css/main.d18dee0f.chunk.css",
+    "static/js/main.1ccdd1b8.chunk.js"
+  ]
+}
