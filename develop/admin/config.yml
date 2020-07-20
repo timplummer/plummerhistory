@@ -8,7 +8,6 @@ backend:
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
-logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
   - name: site
