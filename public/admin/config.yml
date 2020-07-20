@@ -57,7 +57,7 @@ collections:
             widget: relation
             collection: page
             valueField: title
-            searchFields: title
+            searchFields: [title]
           - name: url
             label: url
             widget: string
