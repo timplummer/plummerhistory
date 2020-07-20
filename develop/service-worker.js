@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/plummerhistory/develop/precache-manifest.ea9c70a46e0bce3ec2c7e28d6aa49103.js"
+  "/plummerhistory/develop/precache-manifest.d981d59063d385df1c007b9ba8f0aa12.js"
 );
 
 self.addEventListener('message', (event) => {
