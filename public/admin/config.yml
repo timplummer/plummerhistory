@@ -10,13 +10,11 @@ publish_mode: editorial_workflow
 collections:
   - name: settings
     extension: json
-    publish: false
     label: Site Settings
     label_singular: Site Settings
     folder: public/content/settings
-    create: true
-    delete: true
-    preview_path: "{{slug}}"
+    create: false
+    delete: false
     editor:
       preview: false
     fields:
@@ -37,7 +35,7 @@ collections:
     label_singular: Menu
     folder: public/content/menus
     extesion: json
-    publish: false
+    publish: true
     create: true
     delete: true
     fields:
